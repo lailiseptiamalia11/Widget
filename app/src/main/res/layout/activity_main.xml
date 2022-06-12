@@ -9,6 +9,22 @@
     android:gravity="center"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/txtUserName"
+        android:textSize="18sp"
+        android:text="User Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtPassword"
+        android:textSize="18sp"
+        android:text="Password"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
     <Button
         android:id="@+id/btnIntentExplicit"
         android:layout_width="match_parent"
